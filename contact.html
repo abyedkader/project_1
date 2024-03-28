@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Bootstrap style added -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font awesome added -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Normalize css added -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Custom css added -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+
+  <div id="page">
+    <!-- Navbar part starts -->
+      <header>
+        <nav class="navbar navbar-default container-fluid">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">The Big Lebowski</a>
+            </div>
+        
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right ">
+                <li ><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+             
+              </ul>
+           
+         
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+      </header>
+  
+      <!-- Main part starts -->
+      <section id="body">
+        <div class="container">
+          <p class="h1">Contact Us</p>
+          <p>This doesn't really work, but it's an example of a form. Easy, man. Relax, man.</p>
+        </div>
+
+
+        <!-- Navs part starts -->
+        <div class="container">
+          <ul class="nav nav-tabs nav-justified">
+            <li><a href="#contactForm" data-toggle="tab">Contact Us</a></li>
+            <li><a href="#address" data-toggle="tab">Address</a></li>
+          </ul>
+        </div>
+
+
+         <div class="tab-content">
+              <!-- Contact Form part starts -->
+            <div id="contactForm" class="tab-pane active fade in">
+              <div class="container">
+                <div class="row">
+                  <form class="form-horizontal well">
+                    <div class="form-group">
+                      <label for="yourName" class="col-sm-2 control-label">Your Name</label>
+                      <div class="col-sm-10">
+                        <input type="text" class="form-control" id="yourName" placeholder="Enter Your Name">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="email" class="col-sm-2 control-label">Email</label>
+                      <div class="col-sm-10">
+                        <div class="input-group">
+                          <div class="input-group-addon">@</div>
+                          <input type="email" class="form-control" id="email">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="date" class="col-sm-2 control-label">Date</label>
+                      <div class="col-sm-10">
+                        <input type="date" class="form-control" id="date">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="reason" class="col-sm-2 control-label">Reason</label>
+                      <div class="col-sm-2">
+                        <select id="reason"  name="reason" class="form-control  btn-success">
+                          <option>Pick One</option>
+                          <option>Adoration</option>
+                          <option>Comoaint</option>
+                          <option>Ordering a while Russion</option>
+                          <option>I'm Lost</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="comments" class="col-sm-2 control-label">Message</label>
+                      <div class="col-sm-10">
+                        <textarea class="form-control" id="comments" name="comments" rows="3"></textarea>
+
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <div class="col-sm-offset-2 col-sm-10">
+                        <button type="submit" class="btn btn-default">Sign in</button>
+                      </div>
+                    </div>
+                  </form>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- Address starts -->
+            <div id="address" class="tab-pane fade in">
+              <div class="container well">
+                  <p class="h3">Our fake address</p>
+                  <div>
+                    <address>
+                      Big Lebowski Fan Page<br />
+                      123 Main Street<br />
+                      Rug Ties The Room Together, CA 98765<br />
+                      <abbr title="Phone">P:</abbr>
+                      425.555.0100
+                    </address>
+                    <address>
+                      <strong>Support:</strong>   <a href="mailto:Support@fakelebowskifansite.com">Support@fakelebowskifansite.com</a><br />
+                      <strong>Marketing:</strong> <a href="mailto:Marketing@fakelebowskifansite.com">Marketing@fakelebowskifansite.com</a>
+                    </address>
+                  </div>
+              </div>
+            </sdivection>
+
+
+          </div>
+
+
+
+      </section>
+
+      <hr />
+
+     <!-- Footer part starts -->
+     <div class="container">
+      <footer>
+        <p>Text placeholders courtesy of <a href="http://www.lebowskiipsum.com/">Lebowski Ipsum</a>.</p>
+      </footer>
+     </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    
+<!-- jQuery file added -->
+<script src="js/jquery.min.js"></script>
+<!-- Js file added -->
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
